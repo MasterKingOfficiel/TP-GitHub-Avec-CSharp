@@ -45,5 +45,15 @@ namespace TP_3
         {
             return codeC;
         }
+        public double AjoutArgent(double Montant)
+        {
+            montantC += Montant;
+            return montantC;
+        }
+        public double RetirerArgent(double Montant)
+        {
+            montantC -= Montant;
+            return montantC;
+        }
     }
 }
