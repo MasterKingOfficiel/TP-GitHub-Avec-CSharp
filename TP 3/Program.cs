@@ -56,6 +56,10 @@
                             i++;
                         }
                     }
+                    if (CompteConnecte != null)
+                    {
+                        Initialisation = CompteConnecte.Menu();
+                    }
                     if (i == 4)
                     {
                         Console.WriteLine();
@@ -64,6 +68,7 @@
                         Console.ForegroundColor = ConsoleColor.White;
                         Console.ReadLine();
                     }
+
                 }
             }
             while (Initialisation != "Fermer l'application");
